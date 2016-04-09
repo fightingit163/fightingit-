@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.qiku</groupId>
+	<artifactId>spring-go</artifactId>
+	<packaging>war</packaging>
+	<!-- <version>0.0.1-SNAPSHOT</version> -->
+	<name>spring-go Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	
+	<parent>
+		<groupId>com.qiku</groupId>
+		<artifactId>spring-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../spring-parent/pom.xml</relativePath>
+	</parent>
+	
+	<dependencies>
+	</dependencies>
+	<build>
+		<finalName>spring-go</finalName>
+	</build>
+</project>
