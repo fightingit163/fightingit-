@@ -3,7 +3,6 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>app-dao</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>app-dao Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	
@@ -18,7 +17,7 @@
 		<dependency>
 			<groupId>com.qiku</groupId>
 			<artifactId>app-utils</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 
