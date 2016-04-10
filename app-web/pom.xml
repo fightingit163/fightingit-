@@ -18,6 +18,8 @@
 			<groupId>com.qiku</groupId>
 			<artifactId>app-service</artifactId>
 			<version>${project.version}</version>
+			<type>jar</type>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 	
