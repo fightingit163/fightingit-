@@ -10,6 +10,7 @@
 
 	<modules>
 		<module>../app-utils</module>
+		<module>../app-model</module>
 		<module>../app-dao</module>
 		<module>../app-service</module>
 		<module>../app-web</module>
