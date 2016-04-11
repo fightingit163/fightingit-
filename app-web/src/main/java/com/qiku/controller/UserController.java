@@ -20,7 +20,7 @@ public class UserController {
 	@RequestMapping(value="getUser", method={RequestMethod.GET, RequestMethod.POST})
 	public String getUser(HttpServletRequest request, HttpServletResponse response){
 		System.out.println("dddddddddddddddddddd");
-		System.out.println(userService.getUser("张三"));
+		System.out.println(userService.getUser("张三  提交测试"));
 		return "index";
 	}
 }
