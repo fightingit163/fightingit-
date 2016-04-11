@@ -5,13 +5,17 @@
 	<packaging>jar</packaging>
 	<name>app-dao Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-	
+
 	<parent>
 		<groupId>com.qiku</groupId>
 		<artifactId>app-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../app-parent</relativePath>
 	</parent>
+	<properties>
+		<mybatis-version>3.3.1</mybatis-version>
+		<mybatis-spring-version>1.2.5</mybatis-spring-version>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -21,6 +25,17 @@
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>${mybatis-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>${mybatis-spring-version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
