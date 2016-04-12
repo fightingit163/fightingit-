@@ -8,7 +8,7 @@
 	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations">
 			<list>
-				<value>classpath:jdbc.properties</value>
+				<value>classpath*:jdbc.properties</value>
 			</list>
 		</property>
 	</bean>
@@ -81,11 +81,11 @@
 		<property name="dataSource" ref="dataSource" />
 		<property name="configLocation" value="classpath:mybatis.xml" />
 		<!-- 自动扫描entity目录, 省掉Configuration.xml里的手工配置 -->
-		<property name="mapperLocations" value="classpath:com/qiku/*/mapper/*.xml" />
+		<property name="mapperLocations" value="classpath:com/qiku/mapper/*.xml" />
 	</bean>
 
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.qiku.*.mapper" />
+		<property name="basePackage" value="com.qiku.dao" />
 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	</bean>
 	
