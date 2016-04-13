@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.qiku.service.IUserService;
 
 
+
 @Controller
 public class UserController {
 	private static Logger logger = LoggerFactory.getLogger(UserController.class);
